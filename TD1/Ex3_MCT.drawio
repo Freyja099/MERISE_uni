@@ -1,9 +1,85 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="8u8qgn9NhTSrfEZLVire">
-    <mxGraphModel>
+    <mxGraphModel dx="1836" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="noDntDolW-iPVTBLR7dB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="noDntDolW-iPVTBLR7dB-1" target="noDntDolW-iPVTBLR7dB-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-1" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;Demande de promotion&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="241" y="30" width="319" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-3" value="&lt;div&gt;Examen préalable&amp;nbsp;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="noDntDolW-iPVTBLR7dB-3" source="noDntDolW-iPVTBLR7dB-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-4" value="Demande recevable" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="noDntDolW-iPVTBLR7dB-3">
+          <mxGeometry x="20" y="30" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-5" value="Demande non recevable" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="noDntDolW-iPVTBLR7dB-3">
+          <mxGeometry x="190" y="30" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-6" value="Demande rejeté&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="740" y="310" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="noDntDolW-iPVTBLR7dB-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="noDntDolW-iPVTBLR7dB-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-10" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Rapport du supérieur hiérarchique&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="340" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-16" value="&lt;b&gt;Examen du dossier par l&#39;autorité&amp;nbsp;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-17" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="260" y="490" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-18" value="Décision" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="125" y="590" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-19" value="promotion accordé&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="noDntDolW-iPVTBLR7dB-18">
+          <mxGeometry x="25" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-20" value="promotion rejeté&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="noDntDolW-iPVTBLR7dB-18">
+          <mxGeometry x="185" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.331;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="noDntDolW-iPVTBLR7dB-16" target="noDntDolW-iPVTBLR7dB-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="470" />
+              <mxPoint x="312" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-23" value="Demande accepté" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="770" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-24" value="Demande refusé&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="770" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="noDntDolW-iPVTBLR7dB-19" target="noDntDolW-iPVTBLR7dB-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noDntDolW-iPVTBLR7dB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="noDntDolW-iPVTBLR7dB-20" target="noDntDolW-iPVTBLR7dB-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
